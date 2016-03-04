@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		680FD6001C88CC9500F9BCC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680FD5FF1C88CC9500F9BCC2 /* AppDelegate.swift */; };
+		680FD6041C88CC9500F9BCC2 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680FD6031C88CC9500F9BCC2 /* GameScene.swift */; };
+		680FD6061C88CC9500F9BCC2 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680FD6051C88CC9500F9BCC2 /* GameViewController.swift */; };
+		680FD6091C88CC9500F9BCC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 680FD6071C88CC9500F9BCC2 /* Main.storyboard */; };
+		680FD60B1C88CC9500F9BCC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 680FD60A1C88CC9500F9BCC2 /* Assets.xcassets */; };
+		680FD60E1C88CC9500F9BCC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 680FD60C1C88CC9500F9BCC2 /* LaunchScreen.storyboard */; };
+		680FD6191C88CC9500F9BCC2 /* MythTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680FD6181C88CC9500F9BCC2 /* MythTests.swift */; };
+		680FD6241C88CC9500F9BCC2 /* MythUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680FD6231C88CC9500F9BCC2 /* MythUITests.swift */; };
+		680FD6331C88E1FE00F9BCC2 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 680FD6311C88E1FE00F9BCC2 /* Sounds */; };
+		680FD6341C88E1FE00F9BCC2 /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 680FD6321C88E1FE00F9BCC2 /* sprites.atlas */; };
+		683355071C8A25E600603D48 /* Zmey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683355061C8A25E600603D48 /* Zmey.swift */; };
+		683355091C8A27E200603D48 /* Meat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683355081C8A27E200603D48 /* Meat.swift */; };
+		6833550B1C8A28CA00603D48 /* StuffedHorse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6833550A1C8A28CA00603D48 /* StuffedHorse.swift */; };
+		68E4C6901C8925AE00376219 /* Dragon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E4C68F1C8925AE00376219 /* Dragon.swift */; };
+		68E4C6921C892DB200376219 /* Toy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E4C6911C892DB200376219 /* Toy.swift */; };
+		68E4C6941C89326D00376219 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E4C6931C89326D00376219 /* Food.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		680FD6151C88CC9500F9BCC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 680FD5F41C88CC9500F9BCC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 680FD5FB1C88CC9500F9BCC2;
+			remoteInfo = Myth;
+		};
+		680FD6201C88CC9500F9BCC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 680FD5F41C88CC9500F9BCC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 680FD5FB1C88CC9500F9BCC2;
+			remoteInfo = Myth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		680FD5FC1C88CC9500F9BCC2 /* Myth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Myth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		680FD5FF1C88CC9500F9BCC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		680FD6031C88CC9500F9BCC2 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		680FD6051C88CC9500F9BCC2 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		680FD6081C88CC9500F9BCC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		680FD60A1C88CC9500F9BCC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		680FD60D1C88CC9500F9BCC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		680FD60F1C88CC9500F9BCC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		680FD6141C88CC9500F9BCC2 /* MythTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MythTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		680FD6181C88CC9500F9BCC2 /* MythTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MythTests.swift; sourceTree = "<group>"; };
+		680FD61A1C88CC9500F9BCC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		680FD61F1C88CC9500F9BCC2 /* MythUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MythUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		680FD6231C88CC9500F9BCC2 /* MythUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MythUITests.swift; sourceTree = "<group>"; };
+		680FD6251C88CC9500F9BCC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		680FD6311C88E1FE00F9BCC2 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Sounds; path = ../../Downloads/SpriteKitSimpleGameResources/Sounds; sourceTree = "<group>"; };
+		680FD6321C88E1FE00F9BCC2 /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = sprites.atlas; path = ../../Downloads/SpriteKitSimpleGameResources/sprites.atlas; sourceTree = "<group>"; };
+		683355061C8A25E600603D48 /* Zmey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Zmey.swift; sourceTree = "<group>"; };
+		683355081C8A27E200603D48 /* Meat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meat.swift; sourceTree = "<group>"; };
+		6833550A1C8A28CA00603D48 /* StuffedHorse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StuffedHorse.swift; sourceTree = "<group>"; };
+		68E4C68F1C8925AE00376219 /* Dragon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dragon.swift; sourceTree = "<group>"; };
+		68E4C6911C892DB200376219 /* Toy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toy.swift; sourceTree = "<group>"; };
+		68E4C6931C89326D00376219 /* Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		680FD5F91C88CC9500F9BCC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		680FD6111C88CC9500F9BCC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		680FD61C1C88CC9500F9BCC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		680FD5F31C88CC9500F9BCC2 = {
+			isa = PBXGroup;
+			children = (
+				680FD6311C88E1FE00F9BCC2 /* Sounds */,
+				680FD6321C88E1FE00F9BCC2 /* sprites.atlas */,
+				680FD5FE1C88CC9500F9BCC2 /* Myth */,
+				680FD6171C88CC9500F9BCC2 /* MythTests */,
+				680FD6221C88CC9500F9BCC2 /* MythUITests */,
+				680FD5FD1C88CC9500F9BCC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		680FD5FD1C88CC9500F9BCC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				680FD5FC1C88CC9500F9BCC2 /* Myth.app */,
+				680FD6141C88CC9500F9BCC2 /* MythTests.xctest */,
+				680FD61F1C88CC9500F9BCC2 /* MythUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		680FD5FE1C88CC9500F9BCC2 /* Myth */ = {
+			isa = PBXGroup;
+			children = (
+				683355051C8A254900603D48 /* Objects */,
+				680FD5FF1C88CC9500F9BCC2 /* AppDelegate.swift */,
+				680FD6031C88CC9500F9BCC2 /* GameScene.swift */,
+				680FD6051C88CC9500F9BCC2 /* GameViewController.swift */,
+				680FD6071C88CC9500F9BCC2 /* Main.storyboard */,
+				680FD60A1C88CC9500F9BCC2 /* Assets.xcassets */,
+				680FD60C1C88CC9500F9BCC2 /* LaunchScreen.storyboard */,
+				680FD60F1C88CC9500F9BCC2 /* Info.plist */,
+			);
+			path = Myth;
+			sourceTree = "<group>";
+		};
+		680FD6171C88CC9500F9BCC2 /* MythTests */ = {
+			isa = PBXGroup;
+			children = (
+				680FD6181C88CC9500F9BCC2 /* MythTests.swift */,
+				680FD61A1C88CC9500F9BCC2 /* Info.plist */,
+			);
+			path = MythTests;
+			sourceTree = "<group>";
+		};
+		680FD6221C88CC9500F9BCC2 /* MythUITests */ = {
+			isa = PBXGroup;
+			children = (
+				680FD6231C88CC9500F9BCC2 /* MythUITests.swift */,
+				680FD6251C88CC9500F9BCC2 /* Info.plist */,
+			);
+			path = MythUITests;
+			sourceTree = "<group>";
+		};
+		683355051C8A254900603D48 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				68E4C68F1C8925AE00376219 /* Dragon.swift */,
+				68E4C6911C892DB200376219 /* Toy.swift */,
+				68E4C6931C89326D00376219 /* Food.swift */,
+				683355061C8A25E600603D48 /* Zmey.swift */,
+				683355081C8A27E200603D48 /* Meat.swift */,
+				6833550A1C8A28CA00603D48 /* StuffedHorse.swift */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		680FD5FB1C88CC9500F9BCC2 /* Myth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 680FD6281C88CC9500F9BCC2 /* Build configuration list for PBXNativeTarget "Myth" */;
+			buildPhases = (
+				680FD5F81C88CC9500F9BCC2 /* Sources */,
+				680FD5F91C88CC9500F9BCC2 /* Frameworks */,
+				680FD5FA1C88CC9500F9BCC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Myth;
+			productName = Myth;
+			productReference = 680FD5FC1C88CC9500F9BCC2 /* Myth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		680FD6131C88CC9500F9BCC2 /* MythTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 680FD62B1C88CC9500F9BCC2 /* Build configuration list for PBXNativeTarget "MythTests" */;
+			buildPhases = (
+				680FD6101C88CC9500F9BCC2 /* Sources */,
+				680FD6111C88CC9500F9BCC2 /* Frameworks */,
+				680FD6121C88CC9500F9BCC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				680FD6161C88CC9500F9BCC2 /* PBXTargetDependency */,
+			);
+			name = MythTests;
+			productName = MythTests;
+			productReference = 680FD6141C88CC9500F9BCC2 /* MythTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		680FD61E1C88CC9500F9BCC2 /* MythUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 680FD62E1C88CC9500F9BCC2 /* Build configuration list for PBXNativeTarget "MythUITests" */;
+			buildPhases = (
+				680FD61B1C88CC9500F9BCC2 /* Sources */,
+				680FD61C1C88CC9500F9BCC2 /* Frameworks */,
+				680FD61D1C88CC9500F9BCC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				680FD6211C88CC9500F9BCC2 /* PBXTargetDependency */,
+			);
+			name = MythUITests;
+			productName = MythUITests;
+			productReference = 680FD61F1C88CC9500F9BCC2 /* MythUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		680FD5F41C88CC9500F9BCC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Alicia Mitchell";
+				TargetAttributes = {
+					680FD5FB1C88CC9500F9BCC2 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = N5X54948VC;
+					};
+					680FD6131C88CC9500F9BCC2 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = N5X54948VC;
+						TestTargetID = 680FD5FB1C88CC9500F9BCC2;
+					};
+					680FD61E1C88CC9500F9BCC2 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = N5X54948VC;
+						TestTargetID = 680FD5FB1C88CC9500F9BCC2;
+					};
+				};
+			};
+			buildConfigurationList = 680FD5F71C88CC9500F9BCC2 /* Build configuration list for PBXProject "Myth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 680FD5F31C88CC9500F9BCC2;
+			productRefGroup = 680FD5FD1C88CC9500F9BCC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				680FD5FB1C88CC9500F9BCC2 /* Myth */,
+				680FD6131C88CC9500F9BCC2 /* MythTests */,
+				680FD61E1C88CC9500F9BCC2 /* MythUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		680FD5FA1C88CC9500F9BCC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				680FD6341C88E1FE00F9BCC2 /* sprites.atlas in Resources */,
+				680FD60E1C88CC9500F9BCC2 /* LaunchScreen.storyboard in Resources */,
+				680FD60B1C88CC9500F9BCC2 /* Assets.xcassets in Resources */,
+				680FD6331C88E1FE00F9BCC2 /* Sounds in Resources */,
+				680FD6091C88CC9500F9BCC2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		680FD6121C88CC9500F9BCC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		680FD61D1C88CC9500F9BCC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		680FD5F81C88CC9500F9BCC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6833550B1C8A28CA00603D48 /* StuffedHorse.swift in Sources */,
+				680FD6041C88CC9500F9BCC2 /* GameScene.swift in Sources */,
+				680FD6061C88CC9500F9BCC2 /* GameViewController.swift in Sources */,
+				68E4C6921C892DB200376219 /* Toy.swift in Sources */,
+				68E4C6901C8925AE00376219 /* Dragon.swift in Sources */,
+				683355091C8A27E200603D48 /* Meat.swift in Sources */,
+				680FD6001C88CC9500F9BCC2 /* AppDelegate.swift in Sources */,
+				68E4C6941C89326D00376219 /* Food.swift in Sources */,
+				683355071C8A25E600603D48 /* Zmey.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		680FD6101C88CC9500F9BCC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				680FD6191C88CC9500F9BCC2 /* MythTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		680FD61B1C88CC9500F9BCC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				680FD6241C88CC9500F9BCC2 /* MythUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		680FD6161C88CC9500F9BCC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 680FD5FB1C88CC9500F9BCC2 /* Myth */;
+			targetProxy = 680FD6151C88CC9500F9BCC2 /* PBXContainerItemProxy */;
+		};
+		680FD6211C88CC9500F9BCC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 680FD5FB1C88CC9500F9BCC2 /* Myth */;
+			targetProxy = 680FD6201C88CC9500F9BCC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		680FD6071C88CC9500F9BCC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				680FD6081C88CC9500F9BCC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		680FD60C1C88CC9500F9BCC2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				680FD60D1C88CC9500F9BCC2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		680FD6261C88CC9500F9BCC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		680FD6271C88CC9500F9BCC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		680FD6291C88CC9500F9BCC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Myth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PearlGames.Myth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		680FD62A1C88CC9500F9BCC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Myth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PearlGames.Myth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		680FD62C1C88CC9500F9BCC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = MythTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PearlGames.MythTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Myth.app/Myth";
+			};
+			name = Debug;
+		};
+		680FD62D1C88CC9500F9BCC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MythTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PearlGames.MythTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Myth.app/Myth";
+			};
+			name = Release;
+		};
+		680FD62F1C88CC9500F9BCC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = MythUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PearlGames.MythUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Myth;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		680FD6301C88CC9500F9BCC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MythUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PearlGames.MythUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Myth;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		680FD5F71C88CC9500F9BCC2 /* Build configuration list for PBXProject "Myth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				680FD6261C88CC9500F9BCC2 /* Debug */,
+				680FD6271C88CC9500F9BCC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		680FD6281C88CC9500F9BCC2 /* Build configuration list for PBXNativeTarget "Myth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				680FD6291C88CC9500F9BCC2 /* Debug */,
+				680FD62A1C88CC9500F9BCC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		680FD62B1C88CC9500F9BCC2 /* Build configuration list for PBXNativeTarget "MythTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				680FD62C1C88CC9500F9BCC2 /* Debug */,
+				680FD62D1C88CC9500F9BCC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		680FD62E1C88CC9500F9BCC2 /* Build configuration list for PBXNativeTarget "MythUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				680FD62F1C88CC9500F9BCC2 /* Debug */,
+				680FD6301C88CC9500F9BCC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 680FD5F41C88CC9500F9BCC2 /* Project object */;
+}
